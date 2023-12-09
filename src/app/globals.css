@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #202020;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  color: #dedede;
+  font-size: medium;
+  font-weight: 500;
+}
+
+h5 {
+  color: white;
+}
+
+h6 {
+  color: #d1d5db;
+}
