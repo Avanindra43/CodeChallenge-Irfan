@@ -7,7 +7,7 @@ export default async function About() {
   const data = await getData();
 
   return (
-    <div>
+    <div className="dark">
       <section class="bg-[#202020] dark:bg-[#202020]">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -24,8 +24,8 @@ export default async function About() {
           </div>
           <div class="flex flex-row">
             <Image
-              height={900}
-              width={900}
+              height={500}
+              width={600}
               class="mt-4  lg:mt-10 rounded-2xl"
               src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="office content 2"
@@ -38,14 +38,14 @@ export default async function About() {
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div>
             <Image
-              width={500}
+              width={600}
               height={500}
               class="mb-4 lg:mt-10 rounded-2xl"
               src="https://images.unsplash.com/photo-1558959356-2f36c7322d3b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="office content 2"
             />
           </div>
-          <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          <div class="font-light text-gray-500 sm:text-lg  dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               More than just a business
             </h2>
